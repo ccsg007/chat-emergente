@@ -1,0 +1,81 @@
+<div id='ventana-flotante'>
+
+   <a class='cerrar' href='javascript:void(0);' onclick='document.getElementById(&apos;ventana-flotante&apos;).className = &apos;oculto&apos;'>x</a>
+
+   <div id='contenedor'>
+
+       <div class='contenido'>
+
+<center>
+<span style="color: red;"><H2>Chat en VIVO</H2></span><br/><bf">
+<H2>Hola aquí podrás encontrar tutoriales y Hacer Consultas.</H2> 
+
+<br/><br/>
+<span style="color: cyan; font-weight: bold;"><a href="https://wa.me/573203649437" target="_blank"><IMG src="https://2.bp.blogspot.com/-NnYMF93o7rw/WdhQWrw9qAI/AAAAAAAADKQ/y1OAsCh7jpAmsXL9H1y45fJaDWzRW9h2QCK4BGAYYCw/s1600/image.gif"><H1>Envíanos un mensaje de WhatsApp</H1></a></span>
+<IMG src="https://2.bp.blogspot.com/-6uMDotssq7w/XLo5LhCoezI/AAAAAAAAKtQ/bozvoiuvjx8RNMrqm8RQJV4ogPATfMthACLcBGAs/s200/580b57fcd9996e24bc43c543.png"></center>
+
+       </div>
+
+   </div>
+
+</div>
+<style>
+#ventana-flotante {
+width: 230px;  /* Ancho de la ventana */
+height: px;  /* Alto de la ventana */
+background: #74D4FC;  /* Color de fondo */
+position: fixed;
+top: -0px;
+left: 50%;
+margin-left: -500px;
+border: -1px solid #282928;  /* Borde de la ventana */
+box-shadow: 0 5px 25px rgba(0,0,0,.1);  /* Sombra */
+z-index:999;
+}
+#ventana-flotante #contenedor {
+padding: px 10px 10px 10px;
+}
+#ventana-flotante .cerrar {
+float: right;
+border-bottom: 1px solid #bbb;
+border-left: 1px solid #bbb;
+color: #999;
+background: white;
+line-height: 17px;
+text-decoration: none;
+padding: 0px 14px;
+font-family: Arial;
+border-radius: 0 0 0 5px;
+box-shadow: -1px 1px white;
+font-size: 18px;
+-webkit-transition: .3s;
+-moz-transition: .3s;
+-o-transition: .3s;
+-ms-transition: .3s;
+}
+#ventana-flotante .cerrar:hover {
+background: #ff6868;
+color: white;
+text-decoration: none;
+text-shadow: -1px -1px red;
+border-bottom: 1px solid red;
+border-left: 1px solid red;
+}
+#ventana-flotante #contenedor .contenido {
+padding: 30px;
+box-shadow: inset px 1px white;
+background: #FFFFF;  /* Fondo del mensaje */
+border: 1px solid #FFFFFF;  /* Borde del mensaje */
+font-size: 13px;  /* Tamaño del texto del mensaje */
+color: #gggggg;  /* Color del texto del mensaje */
+text-shadow: px px white;
+margin: 0 auto;
+border-radius: 4px;
+}
+.oculto {-webkit-transition:1s;-moz-transition:1s;-o-transition:1s;-ms-transition:1s;opacity:0;-ms-opacity:0;-moz-opacity:0;visibility:hidden;}
+</style>
+<!--[if IE]>
+<style>
+.oculto {dispElay:none}
+</style>
+<![endif]-->
